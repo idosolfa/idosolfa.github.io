@@ -1,0 +1,26 @@
+baseURL: "https://idosolfa.github.io/"
+title: "It's IDO"
+theme: PaperMod
+
+locale: ko-KR
+defaultContentLanguage: ko
+hasCJKLanguage: true
+timeZone: Asia/Seoul
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 5
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  description: "배운 것들을 기록하는 블로그입니다."
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  homeInfoParams:
+    Title: "안녕하세요 👋"
+    Content: "배운 것들을 기록하는 블로그입니다."
